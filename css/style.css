@@ -10,7 +10,7 @@ body, html
 
 body
 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', cursive !important;
     width: 100%;
 }
 
@@ -150,7 +150,7 @@ a, a:hover
     background-color: #3498DB;
 }
 
-.block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8 {
+.block {
 
     display: block;
     margin: auto;
@@ -178,21 +178,12 @@ a, a:hover
     text-align: center;
 }
 
-.formulaireContact {
-    width: 500px;
+.span {
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
-input {
-    margin-bottom: 20px ;
-    width: 500px;
-    height: 50px;
-}
-
-textarea {
-    width: 500px;
-    height: 200px;
-    resize: vertical;
+.contact-btn {
+    margin-top: 10px;
 }
 
