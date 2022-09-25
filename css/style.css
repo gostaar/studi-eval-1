@@ -90,13 +90,16 @@ a, a:hover
 .ban img {
     width: 100%;
     max-width: 100%;
+    position:absolute;
+    z-index: 1;
 }
 
 .inner-banner {
-    position: absolute;
-    top: 30%;
+    position: relative;
+    top: 20%;
     width: 100%;
     text-align: center;
+    z-index:2;
 }
 
 .inner-banner h1{
